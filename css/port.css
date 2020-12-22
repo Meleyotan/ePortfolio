@@ -1,0 +1,40 @@
+@font-face{font-family: madetommmy; src: url(madetommmy.otf);}
+body{font-family: madetommmy; margin: 0 auto;}
+div.all{background:#f1f1f1;}
+header.black{background:#151517;}
+nav{background:#151517; float: right; width:100%; text-align: right;}
+nav ul{float: right; list-style: none;margin-right: 120px;}
+nav ul li{float: left; margin-right: 20px;}
+a{color:white; text-decoration: none;}
+p#size{color: white;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+color: #c98546;}
+a#brown{color: #c98546;}
+main{background:#282a29;color: #ffffff;height: 500px;}
+div#shift{margin-left: 15%;padding-top: 13%;}
+p#name{font-size: 3pc;margin: 0 auto;}
+button{border: none; background-color: #c98546; color: white; border-radius: 100px; padding: 10px 15px 10px 15px;}
+span#button{font-size: 10px; font-weight: bold; letter-spacing: 2px;}
+span#hyphen{color: #c98546;}
+img{width: 20%; margin-left: 15%;}
+div#align{width: 60%; display: inline-block;}
+div#one{display: inline-block; width:30%; background-color: #2c2c2c; padding: 5px; text-align: center;}
+div#two{display: inline-block; width: 30%; background-color: #2c2c2c; padding: 5px; text-align: center;}
+div#three{display: inline-block; width: 30%; background-color: #2c2c2c; padding: 5px; text-align: center;}
+div#four{display: inline-block; width: 30%; background-color: #2c2c2c; padding: 5px; margin-top: 20px; text-align: center;}
+div#five{display: inline-block; width: 30%; background-color: #2c2c2c; padding: 5px; text-align: center;}
+div#six{display: inline-block; width: 30%; background-color: #2c2c2c; padding: 5px; text-align: center;}
+a:hover{opacity: 0.7;}
+/*Responsive Design*/
+@media only screen and (max-width:600px){
+div#one{background-color: #2c2c2c; padding: 5px; text-align: center; width: 100%;}
+div#two{background-color: #2c2c2c; padding: 5px; text-align: center; width: 100%; margin-top: 20px;}
+div#three{background-color: #2c2c2c; padding: 5px; text-align: center; width: 100%;margin-top: 20px;}
+div#four{background-color: #2c2c2c; padding: 5px;text-align: center; width: 100%;margin-top: 20px;}
+div#five{background-color: #2c2c2c; padding: 5px; text-align: center; width: 100%; margin-top: 20px;}
+div#six{background-color: #2c2c2c; padding: 5px; text-align: center; width: 100%; margin-top: 20px;}
+a:hover{opacity: 0.7;}
+div#no{margin-left: 0 auto; margin-right: 0 auto;}
+}
